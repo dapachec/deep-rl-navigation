@@ -35,3 +35,4 @@ def test(n_epi):
                 
     env.close()
 
+test(5)
