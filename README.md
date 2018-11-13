@@ -1,10 +1,10 @@
 # Project Details
 
-In this project, we will train a virtual agent to solve the Banana Collection task, a benchmark in the deep-RL comunity developed by the Unity ML-agents team. 
+In this project, we will train a virtual agent to solve the Banana Collection task, a benchmark in the deep-RL comunity developed in the framework of the Unity ML-agents project. 
 
-The objective of our navigating agent is to collect as many as possible yellow bananas while avoiding to collect blue bananas. 
+The objective of the agent in this task is to collect yellow bananas distributed in a rectangular virtual space, while avoiding to collect blue bananas.
 
-The observations from the environment are stored in a continuous space of 37 dimensions, including the agent's velocity, along with a ray-based perception of objects around the agent's forward direction. In particular, the agent throws 7 rays at angles (20, 90, 160, 45, 135, 70, 100). Each ray contains info about the presence of one of four detectable objects encoded as a one-shot vector (i.e., yellow banana, wall, blue banana, other agent). It also contains a distance measure with respect to the collided object (a fraction of the ray's total lenght)
+The agent collects observations from the environment that are stored in a continuous space of 37 dimensions, including its velocity, and a ray-based perception of objects around its forward direction. Specifically, the agent throws 7 rays at angles (20, 90, 160, 45, 135, 70, 100), which contain info about the presence of one of four detectable objects encoded as a one-shot vector (i.e., yellow banana, wall, blue banana, other agent). Rays also contain a distance measure with respect to any collided object (a fraction of the ray's total lenght)
 
 There are four possible actions available to the agent at each time step (Move forward, Move backward, Turn left, Turn right). 
 The agent receives a reward of +1 when it collects a yellow banana, and of -1 for a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
@@ -45,10 +45,9 @@ pip install unityagents
 
 # Instructions
 
-To run the code in the repository, please run main.py from the terminal. 
-This file will call the dqn.train function in the main_functions script. 
+To train the agent first clone the repository and run train.py from the terminal. This script will train the agent until the tast is solved, and will store the weights of the a neural netowork used as a function approximator when finished.
 
-To observe the behavior of the trained agent, please call the dqn.test function specifying the number of episodes you would like to observe.
+To observe the behavior of the trained agent, run test.py, which will loaded the file storing the saved weights ("checkpoint_Nav_V05_17.pth"). 
 
 
 
