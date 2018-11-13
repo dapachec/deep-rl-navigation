@@ -1,6 +1,6 @@
 # Project Details
 
-The environment used in this project is the banana collection environment,  built in the Unity Game Engine. 
+In this project, we will use Deep Reinforcement learning to train an agent to perform the Banana Collection task developed in the Unity Game Engine. 
 
 The objective of the agent is to collect as many as possible yellow bananas while avoiding to collect blue bananas. 
 
