@@ -32,14 +32,24 @@ Pre-requisites
 Make sure you having a working version of Anaconda on your system.
 
 First > clone the repo:
+```
 git clone 
+```
 
 Second > Install Dependencies
 Create an anaconda environment that contains all the required dependencies to run the project.
 
+```
 conda create --name drlnd_navigation python=3.6
 source activate drlnd_navigation
 conda install -y python.app
 conda install -y pytorch -c pytorch
 pip install unityagents
+```
+
+
+
+
+
+
 
