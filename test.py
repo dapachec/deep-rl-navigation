@@ -1,4 +1,3 @@
-# load the weights from file
 from collections import deque
 from unityagents import UnityEnvironment
 import numpy as np
