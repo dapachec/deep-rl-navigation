@@ -27,9 +27,7 @@ Make sure you having a working version of Anaconda on your system.
 git clone https://github.com/dpachec/deep-rl-navigation.git
 ```
 
-2) Install Dependencies
-Create an anaconda environment that contains all the required dependencies to run the project.
-
+2) Install Dependencies using Anaconda
 ```
 conda create --name drlnd_navigation python=3.6
 source activate drlnd_navigation
