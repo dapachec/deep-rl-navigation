@@ -1,7 +1,4 @@
-# deep-rl-navigation
-
-
-Project Details
+# Project Details
 
 The environment used in this project is the banana collection environment,  built in the Unity Game Engine. 
 
@@ -15,13 +12,13 @@ The agent receives a reward of +1 when it collects a yellow banana, and of -1 fo
 The environment is considered solved when the agent collects an average of > 13 yellow bananas over 100 consecutive episodes. 
 
 
-Getting Started
+# Getting Started
 
-The project requires Python 3.6 or higher with the following libraries (check links for instructions on how to install them)
+The project requires Python 3.6 or higher with the following libraries 
 
 unityagents 
 numpy 
-torch
+PyTorch
 
 You will also need the Unity Banana Collector environment, which can be downloaded here.
 
