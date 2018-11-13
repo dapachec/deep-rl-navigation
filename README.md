@@ -22,7 +22,24 @@ PyTorch
 
 You will also need the Unity Banana Collector environment, which can be downloaded [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip).
 
-Instructions
+# Instructions
 
 To run the code in the repository, please run main.py from the terminal. Select the hiperparameters and set Train = True. 
 To test the performance of the agent after learning, run the file with Train = False. 
+
+# Installation
+Pre-requisites
+Make sure you having a working version of Anaconda on your system.
+
+First > clone the repo:
+git clone 
+
+Second > Install Dependencies
+Create an anaconda environment that contains all the required dependencies to run the project.
+
+conda create --name drlnd_navigation python=3.6
+source activate drlnd_navigation
+conda install -y python.app
+conda install -y pytorch -c pytorch
+pip install unityagents
+
