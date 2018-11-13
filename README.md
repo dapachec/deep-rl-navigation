@@ -22,12 +22,12 @@ You will also need the Unity Banana Collector environment, which can be download
 # Installation
 Make sure you having a working version of Anaconda on your system.
 
-First > clone the repo:
+1) Clone the repo:
 ```
-git clone 
+git clone https://github.com/dpachec/deep-rl-navigation.git
 ```
 
-Second > Install Dependencies
+2) Install Dependencies
 Create an anaconda environment that contains all the required dependencies to run the project.
 
 ```
@@ -40,9 +40,9 @@ pip install unityagents
 
 # Instructions
 
-To train the agent first clone the repository and run train.py from the terminal. This script will train the agent until the tast is solved, and will store the weights of the a neural netowork used as a function approximator when finished.
+To train the agent run train.py. This script will train the agent until the task is solved, and will store the weigths of a neural network used to estimate the action value function when finished. 
 
-To observe the behavior of the trained agent, run test.py, which will loaded the file storing the saved weights ("checkpoint_Nav_V05_17.pth"). 
+To observe the behavior of the trained agent, run test.py, which will load the weights of the network from the saved file ("checkpoint_Nav_V05_17.pth"), and display a simulation with the agent behaving according to the learned policy. 
 
 
 
