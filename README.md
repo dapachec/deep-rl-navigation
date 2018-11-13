@@ -9,7 +9,7 @@ The agent collects observations from the environment that are stored in a contin
 There are four possible actions available to the agent at each time step (Move forward, Move backward, Turn left, Turn right). 
 The agent receives a reward of +1 when it collects a yellow banana, and of -1 for a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
-In this simplified version, the environment is solved when the agent collects an average of > 13 yellow bananas over 100 consecutive episodes. 
+In this simplified version developed for the Udacity's Deep Reinforcement Learning Nanodegree program, the environment is solved when the agent collects an average of > 13 yellow bananas over 100 consecutive episodes. 
 
 
 # Getting Started
