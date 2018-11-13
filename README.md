@@ -1,15 +1,15 @@
 # Project Details
 
-In this project, we will use Deep Reinforcement learning to train an agent to perform the Banana Collection task developed with the  Unity3D game engine. 
+In this project, we will train a virtual agent to solve a benchmark within the deep-RL comunity: the Banana Collection task, developed by the Unity ML-agents team. 
 
-The objective of the agent is to collect as many as possible yellow bananas while avoiding to collect blue bananas. 
+In the banana collection environment, the objective of the agent is to collect as many as possible yellow bananas while avoiding to collect blue bananas. 
 
-The observations that the agent extracts from the environment are stored in a continuous space of 37 dimensions, including the agent's velocity, along with a ray-based perception of objects around the agent's forward direction. In particular, the agent throws 7 rays at angles (20, 90, 160, 45, 135, 70, 100), with 90 being directly in front of the agent. Each ray contains info about the presence of one of four detectable objects encoded in a one-shot vector (i.e., yellow banana, wall, blue banana, other agent). There is also a distance measure which is a fraction of the ray length in the fifht position of each ray.
+The observations that the agent extracts from the environment are stored in a continuous space of 37 dimensions, including the agent's velocity, along with a ray-based perception of objects around the agent's forward direction. In particular, the agent throws 7 rays at angles (20, 90, 160, 45, 135, 70, 100), with 90 being directly in front of the agent. Each ray contains info about the presence of one of four detectable objects encoded in a one-shot vector (i.e., yellow banana, wall, blue banana, other agent), and a distance measure which is a fraction of the ray length.
 
 There are four possible actions available to the agent at each time step (Move forward, Move backward, Turn left, Turn right). 
 The agent receives a reward of +1 when it collects a yellow banana, and of -1 for a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
-The environment is considered solved when the agent collects an average of > 13 yellow bananas over 100 consecutive episodes. 
+In this simplified version, the environment is considered solved when the agent collects an average of > 13 yellow bananas over 100 consecutive episodes. 
 
 
 # Getting Started
