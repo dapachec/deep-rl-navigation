@@ -1,6 +1,6 @@
 # Project Details
 
-In this project, we will use Deep Reinforcement learning to train an agent to perform the Banana Collection task developed in the Unity Game Engine. 
+In this project, we will use Deep Reinforcement learning to train an agent to perform the Banana Collection task developed with the  Unity3D game engine. 
 
 The objective of the agent is to collect as many as possible yellow bananas while avoiding to collect blue bananas. 
 
