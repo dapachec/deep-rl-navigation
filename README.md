@@ -1,6 +1,6 @@
 # Project Details
 
-In this project, we will train a virtual agent to solve the Banana Collection task, a benchmark in the deep-RL comunity developed in the framework of the Unity ML-agents project. 
+In this project, we will train a virtual agent to solve the Banana Collection task, a benchmark in the deep-RL comunity developed by the Unity ML-agents project. 
 
 The objective of the agent in this task is to collect yellow bananas distributed in a rectangular virtual space, while avoiding to collect blue bananas.
 
@@ -27,9 +27,7 @@ Make sure you having a working version of Anaconda on your system.
 git clone https://github.com/dpachec/deep-rl-navigation.git
 ```
 
-2) Install Dependencies
-Create an anaconda environment that contains all the required dependencies to run the project.
-
+2) Install Dependencies using Anaconda
 ```
 conda create --name drlnd_navigation python=3.6
 source activate drlnd_navigation
