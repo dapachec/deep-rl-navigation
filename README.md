@@ -1,6 +1,6 @@
 # Project Details
 
-In this project, we will train a virtual agent to solve the Banana Collection task, a benchmark in the deep-RL comunity developed in the framework of the Unity ML-agents project. 
+In this project, we will train a virtual agent to solve the Banana Collection task, a benchmark in the deep-RL comunity developed by the Unity ML-agents project. 
 
 The objective of the agent in this task is to collect yellow bananas distributed in a rectangular virtual space, while avoiding to collect blue bananas.
 
