@@ -42,7 +42,7 @@ pip install unityagents
 
 To train the agent run train.py. This script will train the agent until the task is solved, and will store the weigths of a neural network used to estimate the action value function when finished. 
 
-To observe the behavior of the trained agent, run test.py, which will load the weights of the network from the saved file ("checkpoint_Nav_V05_17.pth"), and display a simulation with the agent behaving according to the learned policy. 
+To observe the behavior of the trained agent, run test.py, which will load the weights of the network from the saved file ("checkpoint.pth"), and display a simulation with the agent behaving according to the learned policy. 
 
 
 
