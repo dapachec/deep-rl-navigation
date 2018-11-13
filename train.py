@@ -5,7 +5,7 @@ import numpy as np
 from dqn_agent import Agent
 import torch
 
-def train(n_episodes=2000, max_t=1000, eps_start=1.0, eps_end=0.025, eps_decay=0.995):
+def train(n_episodes=2000, eps_start=1.0, eps_end=0.025, eps_decay=0.995):
     agent = Agent(state_size=37, action_size=4, seed=0)
     env = UnityEnvironment(file_name="Banana.app")
     brain_name = env.brain_names[0]                    # get the default brain
@@ -19,7 +19,6 @@ def train(n_episodes=2000, max_t=1000, eps_start=1.0, eps_end=0.025, eps_decay=0
         env_info = env.reset(train_mode=True)[brain_name] # reset the environment
         state = env_info.vector_observations[0]            # get the current state
         score = 0                                          # initialize the score
-        #for t in range(max_t):
         while True:
             action = agent.act(state, eps)                 # select an action
             env_info = env.step(action)[brain_name]        # send the action to the environment
