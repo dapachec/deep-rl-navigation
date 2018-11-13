@@ -22,10 +22,6 @@ PyTorch
 
 You will also need the Unity Banana Collector environment, which can be downloaded [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip).
 
-# Instructions
-
-To run the code in the repository, please run main.py from the terminal. Select the hiperparameters and set Train = True. 
-To test the performance of the agent after learning, run the file with Train = False. 
 
 # Installation
 Pre-requisites
@@ -46,6 +42,13 @@ conda install -y python.app
 conda install -y pytorch -c pytorch
 pip install unityagents
 ```
+
+# Instructions
+
+To run the code in the repository, please run main.py from the terminal. 
+This file will call the dqn.train function in the main_functions script. 
+
+To observe the behavior of the trained agent, please call the dqn.test function specifying the number of episodes you would like to observe the agent
 
 
 
