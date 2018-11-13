@@ -20,7 +20,7 @@ unityagents
 numpy 
 PyTorch
 
-You will also need the Unity Banana Collector environment, which can be downloaded here.
+You will also need the Unity Banana Collector environment, which can be downloaded [here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip).
 
 Instructions
 
